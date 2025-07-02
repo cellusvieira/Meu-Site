@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #00bcd4;
+}
+
+.login-box, .form-box {
+  background-color: #e0e0e005;
+  margin: 40px auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+input {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.incluir { background-color: green; }
+.editar { background-color: orange; }
+.salvar { background-color: #00bcd4; }
+.cancelar { background-color: gray; }
+.excluir { background-color: red; }
+
+.nav-buttons button {
+  background-color: black;
+  color: white;
+  margin: 5px;
+}
+.login-box button{
+  background-color: gray;
+}
